@@ -1,0 +1,65 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    color: grey;
+    line-height: 1.8em;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.img1{
+    background-image: url(images/img1.jpg);
+    min-height: 100%; 
+}
+.img2{
+    background-image: url(images/img2.png);
+    min-height: 400px; 
+    margin-top: 2Opx;
+}
+.img3{
+    background-image: url(images/img3.jpg);
+    min-height: 400px; 
+}
+.img1, .img2 , .img3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+   
+   
+}
+.bg{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+.light{
+    padding: 50px 80px;
+    text-align: center;
+    background-color:powderblue;
+    color: black;
+}
+.dark{
+    padding: 50px 80px;
+    text-align: center;
+    background-color:purple;
+    color: wheat;
+}
+.dark3{
+    padding: 50px 80px;
+    text-align: center;
+    background-color:rgb(20, 13, 19);
+    color: wheat;
+}
